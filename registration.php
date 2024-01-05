@@ -24,7 +24,7 @@ if(isset($_POST['submit'] ))
 	$check_email = mysqli_query($db, "SELECT email FROM users where email = '".$_POST['email']."' ");
 		
 
-	
+	//jkjhaskjdhjhs 
 	if($_POST['password'] != $_POST['cpassword']){  
        	
           echo "<script>alert('Password not match');</script>"; 
