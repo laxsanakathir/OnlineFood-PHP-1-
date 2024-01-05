@@ -25,6 +25,7 @@ if(isset($_POST['submit'] ))
 		
 
 	//jkjhaskjdhjhs 
+		//kjhkhjkghgfhgfhg 
 	if($_POST['password'] != $_POST['cpassword']){  
        	
           echo "<script>alert('Password not match');</script>"; 
